@@ -10,53 +10,27 @@
 
 
 
-## REF ::https://gist.github.com/bshishov/5dc237f59f019b26145648e2124ca1c9
 
-
-## Import Libraries::
-import xarray as xr
-import numpy as np
 
 import sys
-import os
+import os, globe
 import xarray as xr
 import cartopy.crs as ccrs  # This a library for making 2D spatial plots in python
-# import matplotlib
-# matplotlib.use("TKAgg")
 from cartopy.mpl.ticker import LongitudeFormatter, LatitudeFormatter
 
 import matplotlib
 # matplotlib.use('tkagg')
 import matplotlib.pyplot as plt  # Also for plotting in python
 plt.switch_backend('agg')
-# import matplotlib.pyplot as plt
 import numpy as np
-import xarray as xr
-#import dask.array
-#from dask.diagnostics import ProgressBar
 import pandas as pd
-import matplotlib.pyplot as plt
-from mpl_toolkits.axes_grid1 import make_axes_locatable
-import sys
-import os
-from cartopy.util import add_cyclic_point
-import numpy as np
-#from scipy.stats import kurtosis, skew
-#from sklearn.utils import resample
 import scipy
 import scipy.signal
 import scipy.stats as s
 import cartopy as cart
-
 import metpy.calc as mpcalc
-
-import cmocean as cm  #special library for making beautiful colormaps
-import glob
-import sys
-import os
 import cmocean.cm as cmo
 from scipy.stats import genextreme as gev
-
 import regionmask
 import seaborn as sns
 from cartopy.mpl.ticker import LongitudeFormatter, LatitudeFormatter
